@@ -1,0 +1,16 @@
+{
+  "name": "botgary",
+  "version": "1.0.0",
+  "description": "Bot para gerir um stand.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "André Gouveia",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.15.0",
+    "request": "^2.87.0",
+    "restify": "^7.2.0"
+  }
+}
