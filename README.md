@@ -8,17 +8,19 @@ Repository to add my projects
 
 ### André Gouveia
  
- [Linkedin](https://www.linkedin.com/in/afcgouveia/)
+> [Linkedin](https://www.linkedin.com/in/afcgouveia/)
  
- [Behance](https://www.behance.net/afilipecgo4292)
+> [Behance](https://www.behance.net/afilipecgo4292)
 
 
 ### BindTuning
 
-[Website](http://bindtuning.com/) 
+> [Website](http://bindtuning.com/) 
 
-[Behance](https://www.linkedin.com/company/bindtuning/)
+> [Behance](https://www.linkedin.com/company/bindtuning/)
  
-![BT](https://p4.zdassets.com/hc/settings_assets/89052/200004317/Ae5WmeUyBNz0FaEKjhDkYA-bt.logo_blue.png)
-
+ 
+<p align="center">
+  <img src="https://p4.zdassets.com/hc/settings_assets/89052/200004317/Ae5WmeUyBNz0FaEKjhDkYA-bt.logo_blue.png"/>
+</p>
 
