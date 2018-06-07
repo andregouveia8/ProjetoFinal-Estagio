@@ -7,14 +7,14 @@ Repository to add my projects
 * [Webpart](https://github.com/andregouveia8/ProjetoFinal-Estagio/tree/master/Sharepoint/WebPart_BotGary)
 
 ### André Gouveia
-
-[Linkedin](https://www.linkedin.com/in/afcgouveia/)
+ 
+[Linkedin](https://www.linkedin.com/in/afcgouveia/) \n
 [Behance](https://www.behance.net/afilipecgo4292)
 
 
 ### BindTuning
 
-![BT](https://www.itjobs.pt/empresa/bindtuning/logo/social)
+![BT](https://p4.zdassets.com/hc/settings_assets/89052/200004317/Ae5WmeUyBNz0FaEKjhDkYA-bt.logo_blue.png)
 
-[Website](http://bindtuning.com/)
+[Website](http://bindtuning.com/) \n
 [Behance](https://www.linkedin.com/company/bindtuning/)
