@@ -17,7 +17,7 @@ Repository to add my projects
 
 > [Website](http://bindtuning.com/) 
 
-> [Behance](https://www.linkedin.com/company/bindtuning/)
+> [Linkedin](https://www.linkedin.com/company/bindtuning/)
  
  
 <p align="center">
