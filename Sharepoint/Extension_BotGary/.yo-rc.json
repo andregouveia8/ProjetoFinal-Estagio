@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.1",
+    "libraryName": "bot-gary-extension",
+    "libraryId": "fd3a8519-1e0d-4728-828b-df5baa226515",
+    "environment": "spo"
+  }
+}

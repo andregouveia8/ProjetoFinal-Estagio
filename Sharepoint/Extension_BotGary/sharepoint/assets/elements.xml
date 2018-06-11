@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="BotGary"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="3144e3c9-cc02-4018-9982-f68d40834173"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>
