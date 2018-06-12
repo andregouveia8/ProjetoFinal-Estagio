@@ -1,34 +1,101 @@
-.app {
-    .bottom {
-      bottom: 0;
-      text-align: center;
-      line-height: 2.5;
-      font-weight: bold;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border: none;
-      background-color: "[theme: themePrimary]";
-      margin-left: 50%;
-      width: auto;
-      border-radius: 5px 5px 0px 0px;
+// .app {
+//     .bottom {
+//       bottom: 0;
+//       text-align: center;
+//       line-height: 2.5;
+//       font-weight: bold;
+//       display: flex;
+//       align-items: center;
+//       justify-content: center;
+//       border: none;
+//       background-color: "[theme: themePrimary]";
+//       margin-left: 50%;
+//       width: auto;
+//       border-radius: 5px 5px 0px 0px;
+//     }
+//     .overlay {
+//       border-radius: 5px 5px 0px 0px;
+//       position: fixed;
+//       display: none;
+//       width: 285px;
+//       height: 350px;
+//       top: auto;
+//       left: 50%;
+//       right: 0;
+//       bottom: 0;
+//       background-color: rgb(255, 255, 255);
+//       z-index: 8;
+//       cursor: pointer;
+//       user-select: none;
+//       float: left;
+//       overflow-y: auto;
+//       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+//     }
+//   }
+
+//   @media only screen and (max-width: 600px) {
+//     .app {
+//       .bottom{
+//         background-color: aquamarine;
+//       }
+//     }
+// }
+
+
+//CSS To V2
+
+    .app {
+      .bottom{
+        bottom: 43px;
+        right: 30px;
+        text-align: center;
+        line-height: 1.5;
+        font-weight: 700;
+        display: -ms-flexbox;
+        display: flex;
+        position: absolute;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        border: none;
+        background-color: "[theme: themePrimary]";
+        width: 60px;
+        height: 60px;
+        border-radius: 60px;
+      }
+      .overlay{
+        border-radius: 5px 5px 5px 5px;
+        position: absolute;
+        display: none;
+        width: 360px;
+        height: 80%;
+        top: auto;
+        right: 30px;
+        bottom: 120px;
+        background-color: #fff;
+        z-index: 8;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        float: left;
+        overflow-y: auto;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+      }
     }
-    .overlay {
-      border-radius: 5px 5px 0px 0px;
-      position: fixed;
-      display: none;
-      width: 285px;
-      height: 350px;
-      top: auto;
-      left: 50%;
-      right: 0;
-      bottom: 0;
-      background-color: rgb(255, 255, 255);
-      z-index: 8;
-      cursor: pointer;
-      user-select: none;
-      float: left;
-      overflow-y: auto;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+      @media only screen and (max-width: 600px) {
+    .app {
+      .overlay{
+        width: 100%;
+      }
+    } 
+}  
+@media only screen and (max-height: 870px) {
+      .app {
+        .overlay{
+          height: 60%;
+        }
+      }
     }
-  }

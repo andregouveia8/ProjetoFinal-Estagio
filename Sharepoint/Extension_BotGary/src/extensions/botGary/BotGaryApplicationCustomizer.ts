@@ -18,10 +18,11 @@ import { Text } from "@microsoft/sp-core-library";
 import { SPHttpClient } from "@microsoft/sp-http";
 
 import * as strings from 'BotGaryApplicationCustomizerStrings';
+import { takeUntil } from 'rxjs/operator/takeUntil';
 
 
 const LOG_SOURCE: string = 'BotBtExtensionCustomizer';
-
+var flag = true;
 
 export interface IBotBtExtensionCustomizerProperties {
   // This is an example; replace with your own property
@@ -58,18 +59,27 @@ export default class BotBtExtensionCustomizer
     // Call render method for generating the HTML elements.
     this._renderPlaceHolders();
 
-    var chat = document.querySelector('#chat');
 
-    chat.addEventListener('click', function (e) {
+    var chat1 = document.querySelector('#chat1');
+    var chat2 = document.querySelector('#chat2');
+
+    chat1.addEventListener('click', function (e) {
       $("#overlay").show();
+      $("#chat1").hide();
+      $("#chat2").show();
 
     });
-    var closeChat = document.querySelector('.bg-header');
 
-    closeChat.addEventListener('click', function (e) {
-
+    chat2.addEventListener('click', function (e) {
       $("#overlay").hide();
+      $("#chat2").hide();
+      $("#chat1").show();
     });
+
+
+
+
+
     return Promise.resolve<void>();
   }
 
@@ -103,7 +113,8 @@ export default class BotBtExtensionCustomizer
         if (this._bottomPlaceholder.domElement) {
           this._bottomPlaceholder.domElement.innerHTML = `
         <div class="${styles.app}">
-          <button id="chat" class="ms-bgColor-themeDark ms-fontColor-white ${styles.bottom}"> Bot Gary </button>
+        <button id="chat2" class="ms-bgColor-themeDark ms-fontColor-white ${styles.bottom}"> X </button>
+        <button id="chat1" class="ms-bgColor-themeDark ms-fontColor-white ${styles.bottom}"> Bot Gary </button>
             <div id="overlay" class="${styles.overlay}">
             <div id="${this.context.instanceId}"></div>
           </div>             
