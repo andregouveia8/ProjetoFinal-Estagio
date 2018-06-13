@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "gary-web-part-client-side-solution",
+    "id": "a5cb0a34-b892-48ae-bbd5-8ab47cd91517",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/gary-web-part.sppkg"
+  }
+}
