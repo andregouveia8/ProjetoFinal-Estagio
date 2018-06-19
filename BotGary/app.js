@@ -56,9 +56,6 @@ var bot = new builder.UniversalBot(connector, function (session) {
 
 
             switch (keywordGlobal) {
-                case "!hello name":
-                    session.send("**hello** , *André*");
-                    break;
 
                 //Pedido do ficheiro de documentação PDF
                 case "!help pdf":
@@ -264,3 +261,22 @@ var bot = new builder.UniversalBot(connector, function (session) {
     }
 
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

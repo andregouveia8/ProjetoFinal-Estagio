@@ -16,8 +16,11 @@ import { IBotGaryWebPartProps } from './IBotGaryWebPartProps';
 
 export default class BotWebBtWebPart extends BaseClientSideWebPart<IBotGaryWebPartProps> {
 
+
+  // box-shadow: 0 4px 8px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+
   public render(): void {
-    this.domElement.innerHTML = `<div style="height:400px;" id="${this.context.instanceId}"></div>`;
+    this.domElement.innerHTML = `<div style="height:400px; box-shadow: 0 4px 8px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19); " id="${this.context.instanceId}"></div>`;
 
     // Get userprofile from SharePoint REST endpoint
     var req = new XMLHttpRequest();

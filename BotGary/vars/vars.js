@@ -2,12 +2,12 @@ module.exports = {
     url: {
         Help: 'https://api-bt.herokuapp.com/help',
         Cars: 'https://api-bt.herokuapp.com/cars',
-        CarsAdd: 'https://api-bt.herokuapp.com/addCar',
+        CarsAdd: 'https://api-bt.herokuapp.com/stocks',
         CarSalesDay: 'https://api-bt.herokuapp.com/salesDay',
         Clients: 'https://api-bt.herokuapp.com/clients',
         CarStock: 'https://api-bt.herokuapp.com/stock',
         CarSales: 'https://api-bt.herokuapp.com/sales',
-        ClientsAdd: 'https://api-bt.herokuapp.com/addClient',
+        ClientsAdd: 'https://api-bt.herokuapp.com/client',
         BrandsBD: 'https://api-bt.herokuapp.com/brands',
         CategoriesBD: 'https://api-bt.herokuapp.com/categories'
     },

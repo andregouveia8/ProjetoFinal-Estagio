@@ -51,8 +51,6 @@ export default class BotBtExtensionCustomizer
       message = '(No properties were provided.)';
     }
 
-    // Dialog.alert(`Hello from ${strings.Title}:\n\n${message}`);
-
     // Added to handle possible changes on the existence of placeholders.
     this.context.placeholderProvider.changedEvent.add(this, this._renderPlaceHolders);
 
