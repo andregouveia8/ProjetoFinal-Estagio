@@ -62,16 +62,25 @@ export default class BotBtExtensionCustomizer
     var chat2 = document.querySelector('#chat2');
 
     chat1.addEventListener('click', function (e) {
-      $("#overlay").show();
-      $("#chat1").hide();
-      $("#chat2").show();
+      $("#overlay").fadeIn(100);
+      $("#chat1").fadeOut(100);
+      $("#chat2").fadeIn(100);
+      
+      // $("#overlay").show();
+     // $("#chat1").hide();
+      //$("#chat2").show();
 
     });
 
     chat2.addEventListener('click', function (e) {
-      $("#overlay").hide();
-      $("#chat2").hide();
-      $("#chat1").show();
+      $("#overlay").fadeOut(100);
+      
+      $("#chat2").fadeOut(100);
+      $("#chat1").fadeIn(100);
+      
+      //$("#overlay").hide();
+      //$("#chat2").hide();
+      //$("#chat1").show();
     });
 
 
@@ -135,7 +144,9 @@ export default class BotBtExtensionCustomizer
 
           // Initialize DirectLine connection
           var botConnection = new DirectLine({
-            secret: "VDXAdB9eMgs.cwA.XfE.2MeODaLe9dw47f8a8yIyWS8UgLMKh2um3QRxLjXtscw"
+            secret: "Hi2f-zAB6MU.cwA.WWs.p-R6-gp0eBljnKZ6OfbrmHuafVz2eW2MDmZNHh4uf00"
+            
+            
           });
 
           // Initialize the BotChat.App with basic config data and the wrapper element

@@ -20,7 +20,7 @@ export default class BotWebBtWebPart extends BaseClientSideWebPart<IBotGaryWebPa
   // box-shadow: 0 4px 8px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
 
   public render(): void {
-    this.domElement.innerHTML = `<div style="height:400px; box-shadow: 0 4px 8px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19); " id="${this.context.instanceId}"></div>`;
+    this.domElement.innerHTML = `<div style="height:400px;" id="${this.context.instanceId}"></div>`;
 
     // Get userprofile from SharePoint REST endpoint
     var req = new XMLHttpRequest();
@@ -39,7 +39,7 @@ export default class BotWebBtWebPart extends BaseClientSideWebPart<IBotGaryWebPa
 
     // Initialize DirectLine connection
     var botConnection = new DirectLine({
-      secret: "VDXAdB9eMgs.cwA.XfE.2MeODaLe9dw47f8a8yIyWS8UgLMKh2um3QRxLjXtscw"
+      secret: "Hi2f-zAB6MU.cwA.WWs.p-R6-gp0eBljnKZ6OfbrmHuafVz2eW2MDmZNHh4uf00"
     });
 
     // Initialize the BotChat.App with basic config data and the wrapper element
