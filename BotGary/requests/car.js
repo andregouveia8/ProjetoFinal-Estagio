@@ -1,4 +1,9 @@
 module.exports = {
+    
+    if (input[0] === “!”){
+//CODIGO A EXECUTAR CASO O PRIMEIRO CARACTER = “!”
+}
+
 
     //Mostra todos os carros do Stand (vendidos e por vender)
     getAllCars: function (urlCars, session) {
